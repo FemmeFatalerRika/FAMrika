@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title> Web開発の練習１</title>
+  <link rel="stylesheet" href="mystyle.css"> <!--この行を追加-->
+  <script src="myjs.js"></script> <!--この行を追加-->
 </head>
 <body>
     <br>
@@ -15,6 +17,7 @@
         <li>ほげほげ</li>
         <li>ほにゃらら</li>
     </ol>
+    <script src="myjs.js"></script>
     <a id=“abc”>ここがabcの場所</a>
     <br>
     <h1>練習問題2.3</h1>
@@ -49,7 +52,7 @@
         </details>
         </caption>
         <thead>
-        <tr><th>長所</th><th>どこで食べるか</th><th>短所</th></tr>
+        <tr><th class="important">長所</th><th>どこで食べるか</th><th>短所</th></tr>
 </thead>
  <tbody>
      <tr><td>ネタにこだわり、技術が素晴らしい</td><th>銀座の高級店
@@ -174,10 +177,19 @@
 <a href="a.html#def">別ファイルの名前を付けた場所へリンクします</a>
 <h1>練習問題3.5</h1>
 <nav><ul><li>
-<a href=“https://www.josai.ac.jp/club/jyosisofuto.html”>女子ソフトボール部</a></li>
-<li><a href=“https://www.josai.ac.jp/club/ekiden_hakone.html”>男子駅伝部</a></li>
-<li><a href=“https://www.josai.ac.jp/club/ekiden_joshiekiden.html”>女子駅伝部</a></li>
+<a href="https://www.josai.ac.jp/club/jyosisofuto.html">女子ソフトボール部</a></li>
+<li><a href="https://www.josai.ac.jp/club/ekiden_hakone.html">男子駅伝部</a></li>
+<li><a href="https://www.josai.ac.jp/club/ekiden_joshiekiden.html">女子駅伝部</a></li>
 <li><a>クラブ・サークル活動</a></li></ul></nav> 
+<br>
+<p class="sample1">セキュリティ対策は今後ますます重要になるでしょう。</p>
+<p class="sample2">セキュリティ対策は今後ますます重要になるでしょう。</p>
+<p class="sample3">セキュリティ対策は今後ますます重要になるでしょう。</p>
+<link rel="stylesheet" href="mystyle.css"> <!--この行を追加-->
+<!--<script src="myjs.js"></script>-->
+<br>
+<h1>イベントハンドラの練習</h1>
+<input type="button" value="ここをクリック" onclick="alert('Hello, Rika!');">
 
 </body>
 </html>
